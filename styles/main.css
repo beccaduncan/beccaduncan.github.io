@@ -1,0 +1,30 @@
+html, body{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    background-color: pink;
+    text-align: center;
+    width:auto;
+    color: black;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100%;
+    font-size: 100px;
+    color:navy;
+}
+.floatleft{
+    float:left;
+    width:46%;
+    margin:2%;
+    height:50%;
+}
+.floatright{
+    float:right;
+    width:46%;
+    margin:2%;
+    height:50%;
+}
+.italic{
+    font-style: italic;
+    color:navy;
+}
