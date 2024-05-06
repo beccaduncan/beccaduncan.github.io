@@ -13,18 +13,33 @@ h1{
     color:navy;
 }
 .floatleft{
-    float:left;
-    width:46%;
+    float:none;
+    width:100%;
     margin:2%;
     height:50%;
 }
 .floatright{
-    float:right;
-    width:46%;
+    float:none;
+    width:100%;
     margin:2%;
     height:50%;
 }
 .italic{
     font-style: italic;
     color:navy;
+}
+
+@media (min-width:450px) {
+    .floatleft{
+        float:left;
+        width:46%;
+        margin:2%;
+        height:50%;
+    }
+    .floatright{
+        float:right;
+        width:46%;
+        margin:2%;
+        height:50%;
+    }
 }
