@@ -1,9 +1,8 @@
 html, body{
     font-family:Arial, Helvetica, sans-serif;
-    width: 90%;
+    width: 95%;
     background-color: pink;
     text-align: center;
-    width:auto;
     color: black;
 }
 h1{
@@ -14,22 +13,21 @@ h1{
 }
 .floatleft{
     float:none;
-    width:100%;
-    margin:2%;
+    width:70%;
+    margin:15%;
     height:50%;
 }
 .floatright{
     float:none;
-    width:100%;
-    margin:2%;
+    width:70%;
+    margin:15%;
     height:50%;
 }
 .italic{
     font-style: italic;
     color:navy;
 }
-
-@media (min-width:450px) {
+@media (min-width:600px) {
     .floatleft{
         float:left;
         width:46%;
